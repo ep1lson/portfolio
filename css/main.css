@@ -278,6 +278,7 @@ main {
 a:has(>.card) {
     text-decoration: none;
     color: unset;
+    display: block;
 }
 
 .card {
@@ -286,6 +287,8 @@ a:has(>.card) {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1.35rem;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     transition: border-color 0.2s, transform 0.2s;
 }
